@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('client.home');
+});
+Route::get('/admin1', function () {
+    return view('admin.home');
 });
